@@ -1,0 +1,115 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 10,
+    "name": "AAhouse",
+    "phone_number": "(+91) 666 222 1111",
+    "address": "world cross centre",
+    "website": "ww.go.com",
+    "language": "English",
+    "location": {
+        "lat": 0.427362,
+        "lng": -0.383494
+    },
+    "types": [
+        "show1",
+        "show2"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Sat, 27 Jan 2024 18:22:22 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "268718e01e0790f824e22ee26128ecb8",
+    "scope": "APP",
+    "reference": "b6da279691365b7966b4230ac550f58bb6da279691365b7966b4230ac550f58b",
+    "id": "b6da279691365b7966b4230ac550f58b"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=268718e01e0790f824e22ee26128ecb8
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=268718e01e0790f824e22ee26128ecb8
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Sat, 27 Jan 2024 18:22:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 225
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "0.427362",
+        "longitude": "-0.383494"
+    },
+    "accuracy": "10",
+    "name": "AAhouse",
+    "phone_number": "(+91) 666 222 1111",
+    "address": "world cross centre",
+    "types": "show1,show2",
+    "website": "ww.go.com",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "268718e01e0790f824e22ee26128ecb8"
+}
+HTTP/1.1 200 OK
+Date: Sat, 27 Jan 2024 18:22:25 GMT
+Server: Apache/2.4.52 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
