@@ -1,0 +1,14 @@
+Apache POI API
+Data driven testing from excel
+Maven Dependencies setup
+poi-ooxml and poi
+
+
+Strategy to access excel data
+
+>> create object fr XSSFWorkbook class -- get hold of excel
+>> get access to sheet
+>> get access to all rows of sheet
+>> access to specific row from all rows
+>> get access to all cells of row
+>> access the data from excel into Arrays
