@@ -54,7 +54,8 @@ RestAssured_Automation_API_Framework
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/yashawanth-patil/RestAssured_Automation_API_Framework.git](https://github.com/yashawanth-patil/RestAssured_Automation_API_Framework.git)
+git clone https://github.com/yashawanth-patil/RestAssured_Automation_API_Framework.git
+
 cd RestAssured_Automation_API_Framework
 ```
 
